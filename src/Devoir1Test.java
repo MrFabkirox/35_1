@@ -42,16 +42,16 @@ public class Devoir1Test {
 		int [] t8 = {19, 19, 8, 9, 15, 8, 1, 20, 15};
 		int [] t9 = {8,9};
 		
-		assertEquals(" de tout", 85, Devoir1.secondeValeur(t0));
-		assertEquals(" de tout", 19, Devoir1.secondeValeur(t1));
-		assertEquals(" de tout", 41, Devoir1.secondeValeur(t2));
-		assertEquals(" de tout", 59, Devoir1.secondeValeur(t3));
-		assertEquals(" de tout", 8, Devoir1.secondeValeur(t4));
-		assertEquals(" de tout", 8, Devoir1.secondeValeur(t5));
-		assertEquals(" de tout", 15, Devoir1.secondeValeur(t6));
-		assertEquals(" de tout", 15, Devoir1.secondeValeur(t7));
-		assertEquals(" de tout", 19, Devoir1.secondeValeur(t8));
-		assertEquals(" de tout", 8, Devoir1.secondeValeur(t9));
+		assertEquals(85, Devoir1.secondeValeur(t0));
+		assertEquals(19, Devoir1.secondeValeur(t1));
+		assertEquals(41, Devoir1.secondeValeur(t2));
+		assertEquals(59, Devoir1.secondeValeur(t3));
+		assertEquals(8, Devoir1.secondeValeur(t4));
+		assertEquals(8, Devoir1.secondeValeur(t5));
+		assertEquals(15, Devoir1.secondeValeur(t6));
+		assertEquals(15, Devoir1.secondeValeur(t7));
+		assertEquals(19, Devoir1.secondeValeur(t8));
+		assertEquals(8, Devoir1.secondeValeur(t9));
 		
 	}
 }

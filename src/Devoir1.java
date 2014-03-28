@@ -23,9 +23,7 @@ public class Devoir1 {
         public static int secondeValeur(int tab[]) {
 
         		 if (tab == null || tab.length < 2 ){
-
         			 throw new RuntimeException("tableau non initialisé ou de taille insuffisante");
-
         		 }
         		 else {
 
@@ -35,13 +33,11 @@ public class Devoir1 {
         			 for (int i : tab){
 
         				 	if (i > max){
-
         				 		res = max;
         				 		max = i;
         				 	}
         				 	else {
         				 		if (i > res && i !=max){
-
         				 			res = i;
         				 		}
         				 	}
